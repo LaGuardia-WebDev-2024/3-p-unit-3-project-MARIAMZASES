@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ yes] Two External Links
+[ yes ] Table
+[ yes] Three CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -19,42 +19,54 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    table, th, td {
+  border: 1px solid black;
+}
+    body {background-color: rgb(249, 158, 158);}
+    .stores{ color: rgb(127, 13, 131);}
+    .cost { color: rgb(13, 131, 111);}
+    h1:hover {background-color: rgb(247, 55, 241);}
   </style>
 </head>
-
 <body>
+  <center>
 
-  <h1>____'s Recipe Book</h1>
+  <h1>Mariam's Go to Orders</h1>
 
-  <h2>Contents:</h2>
-
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
-
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
 
   <table>
     <thead>
       <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
+        <th>Restrants</th>
+        <th>Meals</th>
+        <th>Price</th>
       </tr>
     </thead>
     <tbody>
+      <tr>
+      <td class= "stores">Mcdonalds</td>
+        <td>10 piece Nuggets</td>
+        <td class= "cost">$5.99</td>  
+      </tr>
+      <tr>
+        <td class= "stores">Ihop</td>
+        <td>short stack of <br>pancakes</td>
+        <td class= "cost">$8.99</td>
+   </tr>
+      <tr>
+        <td class= "stores"> Starbucks</td>
+        <td>Carmel ribbon<br> crunch</td>
+        <td class= "cost"> $7.45</td>
+      </tr>
     </tbody>
   </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
+  <a href="https://www.mcdonalds.com/us/en-us.html"> Mcdonald's Menu</a><br>
+  <img src="https://logos-world.net/wp-content/uploads/2020/04/McDonalds-Logo.png" width="300"><br>
+    <a href="https://www.ihop.com/en/menu">IHOP Menu </a><br>
+    <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAsEocCRdRe7oWEPIQ0rDtRQtNnbIp_5o7Q&s" width="200"><br>
+<a href=" https://www.starbucks.com/">Starbucks Menu</a><br>
+  <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5QgoP_chL5EYZVF1MkQ_UNEj1CFpebDow_w&s" width="200">
+  </center>
 </body>
 
 </html>
